@@ -14,6 +14,7 @@ This section contains links to the folders for each course module. Each folder i
 - **Module 2:** [Machine Learning for Regression](./02-regression/)
 - **Module 3:** [Machine Learning for Classification](./03-classification/)
 - **Module 4:** [Evaluation Metrics for Classification](./04-EvaluationMetrics/)
+- **Module 5:** [Deploying MachineLearning Models](./05-DeployingMLModels/)
 
 ---
 
