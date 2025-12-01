@@ -16,9 +16,13 @@ This section contains links to the folders for each course module. Each folder i
 - **Module 4:** [Evaluation Metrics for Classification](./04-EvaluationMetrics/)
 - **Module 5:** [Deploying MachineLearning Models](./05-DeployingMLModels/)
 - **Module 6:** [Trees](./06-Trees/)
+- **Module 8:** [DeepLearning](./08-DeepLearning/)
 
 ---
 
 ## Final Projects
 
 This section links to the major projects I completed during the course, including the midterm, final, and capstone projects. Each project folder has its own README file with a detailed description of the project, dataset, and findings.
+
+## Mid-Term Project
+Obesity-Multiclass-Classification [https://github.com/RevathyRamalingam/obesity-class-prediction]
