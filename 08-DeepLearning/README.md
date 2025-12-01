@@ -92,6 +92,7 @@ Use transforms.Compose() to apply sequential transformations like resizing, crop
 Create a DataLoader instance to handle batching and shuffling of data.
 
 4. Model Creation:
+   
 4.1 Subclass the nn.Module class:
 create a model from base class nn.module. Implement init method to initialize parameters for convolution layers, FC layer and 
 activation.
