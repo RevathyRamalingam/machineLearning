@@ -95,15 +95,18 @@ Create a DataLoader instance to handle batching and shuffling of data.
 4.1 Subclass the nn.Module class:
 create a model from base class nn.module. Implement init method to initialize parameters for convolution layers, FC layer and 
 activation.
+
 Implement forward method (forward pass) as the images pass through the convolutional layers.
 When module(x) is invoked it calls forward method from the model and applies the convolutions specified there.
+
 The output channels can be computed using the below formula
 output channels = ( W − K + 2 P ) S + 1
 eg image of size 200*200 height=200, width=200 default stride=1, padding =0, kernel size=(3*3)=size of the filter ,output channel = ((200 -3+(2*0)*1)+1 = 198
+
 4.2 create the model and apply  it to device
+
 4.3 define optimizer and loss function appropriate for the model.Use the torch.optim.SGD optimizer to update model parameters.
-optimizer uses stochastic gradient descend (SGD)algorithm with momentum to optimize model parameters.It creates an optimizer that updates the model parameters
-for optimum performance.
+optimizer uses stochastic gradient descend (SGD)algorithm with momentum to optimize model parameters. It creates an optimizer that updates the model parameters for optimum performance.
 
 5 Train the model for several epochs
 An epoch is one complete cycle of training of all images in trainset. If batch size is 10 and there are 1000 images in 
