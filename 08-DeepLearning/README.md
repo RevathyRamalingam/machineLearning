@@ -52,6 +52,12 @@ CNN consists of two primary layers:
 - **Softmax**: Generalization of the sigmoid function for multiple classes.
 - **ReLU**: Used in hidden layers to introduce non-linearity.
 
+### Static Vs Dynamic Computational Graph
+
+- Pytorch creates a dynamic graph when forward pass is initiated (model is created by passing input images), and it offers the flexibility to debug the layers at every stage of convolutions. This makes Pytorch the most preferred one for image classification. It is useful for prototyping, research activities and debugging.
+- TensorFlow(Keras) uses static computation graph which must be created during training step using @tf.function annotation. As the graph is preloaded, it is faster, memory efficient and faster to deploy in TensorFlowLite. Keras is ideal for production environments and largescale deployments
+  
+
 ## Steps to Build a CNN in Keras
 
 1. **Create a Model**  
