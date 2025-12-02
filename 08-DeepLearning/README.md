@@ -24,7 +24,7 @@ such as pattern recognition, natural language processing, image classification, 
 ## Popular Deep Learning Frameworks
 
 - **Keras**: A high-level framework built on top of TensorFlow.
-- **PyTorch**: A lower-level framework that is more flexible and similar to C, while Keras can be compared to C++.
+- **PyTorch**: A lower-level framework that is more flexible and programmers can map pytorch to C, while Keras can be compared to C++.
 
 ## Tensor Basics
 
