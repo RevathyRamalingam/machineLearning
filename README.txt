@@ -17,6 +17,7 @@ This section contains links to the folders for each course module. Each folder i
 - **Module 5:** [Deploying MachineLearning Models](./05-DeployingMLModels/)
 - **Module 6:** [Trees](./06-Trees/)
 - **Module 8:** [DeepLearning](./08-DeepLearning/)
+- **Module 10:** [Kubernetes](./10-kubernetes/)
 
 ---
 
